@@ -1,10 +1,12 @@
 Algoritmo ejercicio3
+	//Definimos las variables, pedimos valores por teclado e inicializamos las variables
 	definir i,numValores,num,contmay,contmen,cont0 Como Real
 	Escribir "Introduce la cantidad de números:"
 	leer numValores
 	cont0<-0
 	contmay<-0
 	contmen<-0
+	//Creamos un bucle determinado para contar y clasificar los numeros hasta que lleguemos a la cantidad de numeros preestablecida
 	Para i<-1 hasta numValores con paso 1 Hacer
 		Escribir "Introduce un número por teclado: "
 		leer num
@@ -21,5 +23,6 @@ Algoritmo ejercicio3
 			FinSi
 		FinSi
 	FinPara
+	//Imprimimos el resultado
 	Escribir "numeros mayores que 0: ",contmay," Numeros menores que 0: ",contmen," Numeros 0:",cont0
 FinAlgoritmo
